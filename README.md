@@ -45,5 +45,9 @@ You can find a basic example of how to use LangChain in the example.py file in t
 ## Credits
 LangChain is powered by Hugging Face's transformers library and other open-source technologies.
 
-##More refer:
+## More refer:
+ ````bash
+https://youtu.be/rTeeWq-jNh8?si=CO8gbLK3g90KRi1Q
+````
+
 
