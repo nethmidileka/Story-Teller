@@ -11,12 +11,12 @@ Before running the code, make sure you have Python installed on your system. You
 ```bash
 pip install langchain
 pip install transformers
+````
 
 ##Usage
-To convert an image into a story, you can use the provided functions in the langchain module. Here's a basic example:
 
-python
-Copy code
+To convert an image into a story, you can use the provided functions in the langchain module. Here's a basic example:
+```bash
 from langchain import img2text, generate_story, text2speech
 
 # Path to your image file
@@ -30,4 +30,19 @@ story = generate_story(scenario, llm)
 
 # Convert story to speech
 audio_bytes = text2speech(story)
+````
 Make sure to replace "example.jpg" with the path to your actual image file.
+
+###Dependencies
+  langchain
+  transformers
+  matplotlib (if using image processing)
+
+##Example
+You can find a basic example of how to use LangChain in the example.py file in this repository.
+
+##Credits
+LangChain is powered by Hugging Face's transformers library and other open-source technologies.
+
+##More refer:
+
