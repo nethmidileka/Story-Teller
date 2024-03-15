@@ -4,6 +4,7 @@
 
 LangChain is a project that utilizes language models to generate short stories from images.
 
+
 ## Installation
 
 Before running the code, make sure you have Python installed on your system. You can install the required packages using pip:
@@ -11,9 +12,9 @@ Before running the code, make sure you have Python installed on your system. You
 ```bash
 pip install langchain
 pip install transformers
-````
+```
 
-##Usage
+## Usage
 
 To convert an image into a story, you can use the provided functions in the langchain module. Here's a basic example:
 ```bash
@@ -33,15 +34,15 @@ audio_bytes = text2speech(story)
 ````
 Make sure to replace "example.jpg" with the path to your actual image file.
 
-###Dependencies
+## Dependencies
   langchain
   transformers
   matplotlib (if using image processing)
 
-##Example
+## Example
 You can find a basic example of how to use LangChain in the example.py file in this repository.
 
-##Credits
+## Credits
 LangChain is powered by Hugging Face's transformers library and other open-source technologies.
 
 ##More refer:
